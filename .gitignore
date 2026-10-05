@@ -1,0 +1,7 @@
+research/
+genie/
+__pycache__/
+*.pyc
+.venv/
+.env
+

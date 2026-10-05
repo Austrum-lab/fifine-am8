@@ -1,0 +1,7 @@
+[Unit]
+Description=Apply fifine AM8 sound defaults
+After=sound.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/am8-cli apply
